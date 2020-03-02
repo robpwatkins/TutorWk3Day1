@@ -14,13 +14,14 @@ html, body {
 caption {
   text-align: center;
   color: 49A8A9;
-  font-size: 55px;
+  font-size: 75px;
 }
 
 table {
   height: 51%;
   width: 52%;
   margin: 175px auto;
+  font-size: 25px;
   /* border: 1px solid lightblue; */
 }
 
