@@ -1,0 +1,43 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.grid {
+  display: grid;
+  height: 550px;
+  width: 550px;
+  grid-template-columns: repeat(14, 1fr);
+  grid-template-rows: repeat(14, 1fr);
+  gap: 2px;
+  margin: 75px auto;
+  font-family: 'Patrick Hand';
+  font-size: 25px;
+}
+
+.cell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cell:nth-child(even) {
+  color: #49A8A9;
+  background: #DBEFF0;
+}
+
+.cell:nth-child(odd) {
+  color: #49A8A9;
+  background: #C3E6E7;
+}
+
+.cell:nth-child(14n+1), .cell:nth-child(-n+14) {
+  color: white;
+  background: #A7CE39;
+}
+
+#first {
+  background: #6BB53E;
+}
+
+
